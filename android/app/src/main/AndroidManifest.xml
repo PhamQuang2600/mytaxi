@@ -1,14 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mytaxi">
+
    <application
         android:label="mytaxi"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher"
-        android:enableOnBackInvokedCallback="true"'>
+        android:icon="@mipmap/ic_launcher">
 
-
-<meta-data android:name="com.google.android.geo.API_KEY"
-               android:value="AIzaSyBlSuSfRqIbWuz22gEuvo8z5j4cRWOxhe8"/>
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBlSuSfRqIbWuz22gEuvo8z5j4cRWOxhe8"/>
 
         <activity
             android:name=".MainActivity"
@@ -37,6 +36,7 @@
             android:name="flutterEmbedding"
             android:value="2" 
             />
+        
             
     </application>
 </manifest>
